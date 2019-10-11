@@ -1,7 +1,9 @@
 # Quasar App (quasar-responsive)
 
 A Quasar Framework app
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191011165130826.gif)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191011165157134.gif)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191011165207640.gif)
 ## Install the dependencies
 ```bash
 npm install
