@@ -5,8 +5,10 @@
         <q-toolbar-title>
           Quasar Responsive
         </q-toolbar-title>
-        <head-menu v-if="$q.screen.gt.xs" class="no-wrap row"></head-menu>
-        <q-btn flat round v-if="$q.screen.lt.sm" color="white" icon="filter_list" >
+        <!-- 设置class gt-xs，表示当窗口宽度大于xs时才会显示head-menu -->
+        <head-menu class="no-wrap row gt-xs"></head-menu>
+        <!-- 设置class lt-sm，表示当窗口宽度小于sm时才会显示q-btn -->
+        <q-btn flat round class="lt-sm" color="white" icon="filter_list" >
           <q-menu anchor="bottom right" self="top right" content-style="padding: 10px 20px">
             <head-menu ></head-menu>
           </q-menu>

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- 通过$q.screen.lt.sm设置q-splitter组件是否水平显示，$q.screen.lt.sm返回布尔类型，表示屏幕宽度是否小于sm -->
     <q-splitter
       v-model="splitterModel"
       :horizontal="$q.screen.lt.sm"

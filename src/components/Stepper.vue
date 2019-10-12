@@ -1,5 +1,6 @@
 <template>
   <div class="q-pa-md" style="width: 100%">
+    <!-- 通过$q.screen.lt.md设置q-stepper组件是否垂直显示，$q.screen.lt.md返回布尔类型，表示屏幕宽度是否小于md -->
     <q-stepper
       v-model="step"
       ref="stepper"
